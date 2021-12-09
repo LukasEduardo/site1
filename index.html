@@ -19,9 +19,9 @@
         *{
             margin: 0%;
             padding: 0%;
-            border: 1px solid black;
             text-decoration: none;
             list-style: none;
+
         
 
         }
@@ -57,7 +57,7 @@
 
         }
         #imagem img{
-            width: 50%;
+            width: max(200px,50%);
 
         }
         h1{
@@ -79,11 +79,18 @@
             justify-content: center;
         }
         .botão a {
-            padding: 5%;
+            padding: 3%;
             color: whitesmoke;
             background-color: black;
-            border-radius: 10px;
+            border-radius: 3%;
             font-family: bebas;
+            font-size:min(20px,4vw); 
+            box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        }
+        .botão a:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition: 0.7s;
         }
         
     </style>
